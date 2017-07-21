@@ -17,6 +17,9 @@ pre code {
   position: relative;
   margin-bottom: 1.25rem;
 }
+.microsite-header span ~ span {
+  margin-left: 1rem;
+}
 .nav {
   position: absolute;
   left: 0;

@@ -44,3 +44,8 @@ pre code {
   font-size: 30px;
   line-height: 1;
 }
+
+.swatch {
+  height: 100px;
+  padding: 5px;
+}

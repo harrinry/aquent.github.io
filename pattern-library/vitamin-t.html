@@ -44,40 +44,98 @@
       <div id="content" class="content">
         <div class="row">
           <div class="columns medium-10">
-            <section id="feature-1">
-              <h3>Example Feature 1</h3>
-              <p>Vangelis, worldlets concept of the number one, a very small stage in a vast cosmic arena, another world explorations, as a patch of light. Radio telescope from which we spring tingling of the spine shores of the cosmic ocean from which we
-                spring intelligent beings shores of the cosmic ocean, culture ship of the imagination billions upon billions? Hundreds of thousands rich in mystery two ghostly white figures in coveralls and helmets are soflty dancing explorations. Great
-                turbulent clouds across the centuries worldlets astonishment.</p>
+            <section id="colors">
+              <h3>Colors</h3>
+              <p>To do: these color require additional documentation.</p>
+                <div class="row small-up-8 margin-bottom-2x">
+                  <div class="column margin-bottom-1x">
+                    <div class="swatch" style="background: #00a392;">primary: #00a392</div>
+                  </div>
+                  <div class="column margin-bottom-1x">
+                    <div class="swatch" style="background: #9ac044;">secondary: #9ac044</div>
+                  </div>
+                  <div class="column margin-bottom-1x">
+                    <div class="swatch" style="background: #3adb76;">success: #3adb76</div>
+                  </div>
+                  <div class="column margin-bottom-1x">
+                    <div class="swatch" style="background: #ffae00;">warning: #ffae00</div>
+                  </div>
+                  <div class="column margin-bottom-1x">
+                    <div class="swatch" style="background: #ec5840;">alert: #ec5840</div>
+                  </div>
+                </div>
+                <div class="row small-up-8 margin-bottom-2x">
+                  <div class="column margin-bottom-1x">
+                    <div class="swatch" style="background: #f8f8f8;">$jobbox-gray: #f8f8f8;</div>
+                  </div>
+                  <div class="column margin-bottom-1x">
+                    <div class="swatch" style="background: #f2f2f2;">$sectionbg-gray: #f2f2f2;</div>
+                  </div>
+                  <div class="column margin-bottom-1x">
+                    <div class="swatch" style="background: #e6e6e6;">$light-gray: #e6e6e6;</div>
+                  </div>
+                  <div class="column margin-bottom-1x">
+                    <div class="swatch" style="background: #d9d9d9;">$light-gray-2: #d9d9d9;</div>
+                  </div>
+                  <div class="column margin-bottom-1x">
+                    <div class="swatch" style="background: #d0d0d0;">$light-gray-3: #d0d0d0;</div>
+                  </div>
+                  <div class="column margin-bottom-1x">
+                    <div class="swatch" style="background: #aeaeae;">$placeholder-gray: #aeaeae;</div>
+                  </div>
+                  <div class="column margin-bottom-1x">
+                    <div class="swatch" style="background: #84827e; color: white;">$medium-gray: #84827e;</div>
+                  </div>
+                  <div class="column margin-bottom-1x">
+                    <div class="swatch" style="background: #666666; color: white;">$medium-gray-2: #666666;</div>
+                  </div>
+                  <div class="column margin-bottom-1x">
+                    <div class="swatch" style="background: #322f28; color: white;">$dark-gray: #322f28;</div>
+                  </div>
+                  <div class="column margin-bottom-1x">
+                    <div class="swatch" style="background: #1e1a17; color: white;">$black: #1e1a17;</div>
+                  </div>
+                  <div class="column margin-bottom-1x">
+                    <div class="swatch" style="background: #ffffff;">$white: #fff;</div>
+                  </div>
+                </div>
+                <div class="row small-up-8 margin-bottom-2x">
+                  <div class="column margin-bottom-1x">
+                    <div class="swatch" style="background: #EF8200;">$aquent-orange: #EF8200;</div>
+                  </div>
+
+                </div>
               <button class="button" data-toggle="icon-grid">Show code</button>
               <pre id="icon-grid" data-toggler=".hide" class="hide">
                 <code>
-&lt;div class=&quot;icon-grid row small-up-2 medium-up-4 large-up-4&quot;&gt;
-  &lt;div class=&quot;column&quot;&gt;
-    &lt;figure&gt;
-      &lt;span class=&quot;icon large smiley&quot;&gt;&lt;/span&gt;
-      &lt;figcaption&gt;Icon Caption&lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;column&quot;&gt;
-    &lt;figure&gt;
-      &lt;span class=&quot;icon large shield&quot;&gt;&lt;/span&gt;
-      &lt;figcaption&gt;Icon Caption&lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;column&quot;&gt;
-    &lt;figure&gt;
-      &lt;span class=&quot;icon large airplane&quot;&gt;&lt;/span&gt;
-      &lt;figcaption&gt;Icon Caption&lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;column&quot;&gt;
-    &lt;figure&gt;
-      &lt;span class=&quot;icon large bridge&quot;&gt;&lt;/span&gt;
-      &lt;figcaption&gt;Icon Caption&lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+  Foundation Palette
+  primary: #00a392,
+  secondary: #9ac044,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #ec5840
+
+  Button Palette
+  primary: get-color(primary),
+secondary: get-color(secondary),
+dark-gray: #322f28,
+medium-gray: #84827e
+
+// Crazy, growing list of Grays
+$jobbox-gray: #f8f8f8;
+$sectionbg-gray: #f2f2f2;
+$light-gray: #e6e6e6;
+$light-gray-2: #d9d9d9;// used for borders; consider merging with another similar gray
+$light-gray-3: #d0d0d0;// used for icons; consider merging with another similar gray
+$placeholder-gray: #aeaeae;
+$medium-gray: #84827e; // footer social icon color
+$medium-gray-2: #666666;
+$dark-gray: #322f28; // background of footer
+
+// Other Colors
+$black: #1e1a17;
+$white: #fff;
+$aquent-orange: #EF8200;
                 </code>
               </pre>
             </section>
@@ -117,7 +175,7 @@
           <div class="medium-2 columns" data-sticky-container>
             <nav class="sticky" data-sticky data-anchor="content" data-sticky-on="small">
               <ul class="vertical menu" data-magellan>
-                <li><a href="#feature-1">Feature 1</a></li>
+                <li><a href="#colors">Colors</a></li>
                 <li><a href="#feature-2">Feature 2</a></li>
                 <li><a href="#feature-3">Feature 3</a></li>
               </ul>

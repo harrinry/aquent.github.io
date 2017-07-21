@@ -9,7 +9,7 @@
   <title>Pattern Library</title>
   <link rel="icon" href="https://assets.aquent.com/img/aq-vt-favicon3.ico" type="image/x-icon">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css" rel="stylesheet">
-  <!-- <link href="https://aquent.com/css/main.min.css" rel="stylesheet"> -->
+  <link href="https://assets.aquent.com/fonts/aquent-magic/3.3.0/aquent-magic.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
   <link href="../assets/css/pattern-library.css" rel="stylesheet">
   <!-- <link rel="stylesheet" href="./node_modules/motion-ui/dist/motion-ui.css"> -->
@@ -32,15 +32,17 @@
 
   <div class="off-canvas-content" data-off-canvas-content>
     <div class="row column">
-      <header>
-        <nav class="top-navigation">
+      <header class="microsite-header text-center">
+        <nav class="nav">
           <button type="button" class="button tiny" data-toggle="offCanvas">Open Menu</button>
         </nav>
+        <span class="icon-aquent-large"></span>
+        <span class="icon-vt"></span>
       </header>
 
       <div class="content">
         <div class="row">
-          <div class="columns large-10">
+          <div class="columns">
             <section id="global-patterns">
               <h3>Global Patterns</h3>
               <p>We use Zurb's Foundation Sites Library at the core of Aquent and Vitamin T CSS. Foundation has an extensive documentation site for global patterns.</p>
@@ -60,17 +62,6 @@
             </section>
             <hr>
           </div>
-          <!-- Begin Sticky Side Nav -->
-          <div class="bg-white large-2 columns" data-sticky-container>
-            <nav class="sticky" data-sticky data-anchor="exampleId" data-sticky-on="small">
-              <ul class="vertical menu" data-magellan>
-                <li><a href="#global-patterns">Global Patterns</a></li>
-                <li><a href="#aquent">Aquent</a></li>
-                <li><a href="#vitamin-t">Vitamin T</a></li>
-              </ul>
-            </nav>
-          </div>
-          <!-- End Sticky Side Nav -->
         </div>
       </div>
 

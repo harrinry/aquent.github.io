@@ -10,3 +10,34 @@ pre code {
   background: #f9f9f9;
   margin-bottom: 1.5rem;
 }
+.microsite-header {
+  padding: 1rem 0 10px;
+  border-bottom: 1px solid #000;
+  width: 100%;
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+.nav {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.nav button.tiny {
+  border-radius: 3px;
+  padding: 7px 7px;
+  letter-spacing: 0;
+  border: none;
+  margin: 0;
+}
+.icon-vt {
+  color: #9ac044;
+  font-size: 49px;
+  line-height: 1;
+  vertical-align: sub;
+}
+.icon-aquent-large {
+  color: #f8971d;
+  font-size: 30px;
+  line-height: 1;
+}

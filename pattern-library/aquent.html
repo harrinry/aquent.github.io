@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en" dir="ltr">
+<html class="no-js aq-microsite" lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
@@ -7,10 +7,11 @@
   <meta name="robots" content="noindex, nofollow">
   <meta name="description" content="Aquent Pattern Library">
   <title>Aquent Pattern Library</title>
-  <link rel="icon" href="https://assets.aquent.com/img/aq-vt-favicon3.ico" type="image/x-icon">
+  <link rel="icon" href="https://assets.aquent.com/img/aq-favicon.ico" type="image/x-icon">
   <title>Pattern Library</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css" rel="stylesheet">
-  <!-- <link href="https://aquent.com/css/main.min.css" rel="stylesheet"> -->
+  <link href="https://assets.aquent.com/fonts/aquent-magic/3.3.0/aquent-magic.min.css" rel="stylesheet">
+  <link href="https://aquent.com/css/main.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
   <link href="../assets/css/pattern-library.css" rel="stylesheet">
   <!-- <link rel="stylesheet" href="./node_modules/motion-ui/dist/motion-ui.css"> -->
@@ -33,13 +34,14 @@
 
   <div class="off-canvas-content" data-off-canvas-content>
     <div class="row column">
-      <header>
-        <nav class="top-navigation">
+      <header class="microsite-header text-center">
+        <nav class="nav">
           <button type="button" class="button tiny" data-toggle="offCanvas">Open Menu</button>
         </nav>
+        <span class="icon-aquent-large text-center"></span>
       </header>
 
-      <div class="content">
+      <div id="content" class="content">
         <div class="row">
           <div class="columns large-10">
             <section id="feature-1">
@@ -113,7 +115,7 @@
           </div>
           <!-- Begin Sticky Side Nav -->
           <div class="bg-white large-2 columns" data-sticky-container>
-            <nav class="sticky" data-sticky data-anchor="exampleId" data-sticky-on="small">
+            <nav class="sticky" data-sticky data-anchor="content" data-sticky-on="small">
               <ul class="vertical menu" data-magellan>
                 <li><a href="#feature-1">Feature 1</a></li>
                 <li><a href="#feature-2">Feature 2</a></li>

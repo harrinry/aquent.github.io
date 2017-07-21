@@ -1,11 +1,87 @@
 <!doctype html>
-<html>
+<html class="no-js" lang="en" dir="ltr">
+
 <head>
-  <title>Aquent Front End Pattern Library</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Pattern Library">
+  <title>Pattern Library</title>
+  <link rel="icon" href="https://assets.aquent.com/img/aq-vt-favicon3.ico" type="image/x-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css" rel="stylesheet">
+  <!-- <link href="https://aquent.com/css/main.min.css" rel="stylesheet"> -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+  <link href="../assets/css/pattern-library.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="./node_modules/motion-ui/dist/motion-ui.css"> -->
 </head>
 
 <body>
+  <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+    <!-- Close button -->
+    <button class="close-button" aria-label="Close menu" type="button" data-close>
+      <span aria-hidden="true">&times;</span>
+    </button>
+
+    <!-- Menu -->
+    <ul class="vertical menu">
+      <li><a href="/pattern-library/">Global Patterns</a></li>
+      <li><a href="/pattern-library/aquent.html">Aquent Pattern Library</a></li>
+      <li><a href="/pattern-library/vitamin-t.html">Vitamin T Pattern Library</a></li>
+    </ul>
+  </div>
+
+  <div class="off-canvas-content" data-off-canvas-content>
+    <div class="row column">
+      <header>
+        <nav class="top-navigation">
+          <button type="button" class="button tiny" data-toggle="offCanvas">Open Menu</button>
+        </nav>
+      </header>
+
+      <div class="content">
+        <div class="row">
+          <div class="columns large-10">
+            <section id="global-patterns">
+              <h3>Global Patterns</h3>
+              <p>We use Zurb's Foundation Sites Library at the core of Aquent and Vitamin T CSS. Foundation has an extensive documentation site for global patterns.</p>
+              <p><a class="button" href="http://foundation.zurb.com/sites/docs/">View Foundation Sites Documentation</a></p>
+            </section>
+            <hr>
+            <section id="aquent">
+              <h3>Aquent Patterns</h3>
+              <p>In addition to the patterns referenced above, Aquent has site-specific patterns.</p>
+              <p><a class="button" href="/pattern-library/aquent.html">View Aquent Patterns</a></p>
+            </section>
+            <hr>
+            <section id="vitamin-t">
+              <h3>Vitamin T Patterns</h3>
+              <p>In addition to the patterns referenced above, Vitamin T has site-specific patterns.</p>
+              <p><a class="button" href="/pattern-library/.html">View Vitamin T Patterns</a></p>
+            </section>
+            <hr>
+          </div>
+          <!-- Begin Sticky Side Nav -->
+          <div class="bg-white large-2 columns" data-sticky-container>
+            <nav class="sticky" data-sticky data-anchor="exampleId" data-sticky-on="small">
+              <ul class="vertical menu" data-magellan>
+                <li><a href="#global-patterns">Global Patterns</a></li>
+                <li><a href="#aquent">Aquent</a></li>
+                <li><a href="#vitamin-t">Vitamin T</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!-- End Sticky Side Nav -->
+        </div>
+      </div>
+
+    </div><!-- .row.column-->
+
+  </div>
+
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js"></script>
+  <script defer src="../assets/js/pattern-library.js"></script>
 
 </body>
+
 </html>

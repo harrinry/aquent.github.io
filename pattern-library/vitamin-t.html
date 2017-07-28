@@ -219,35 +219,79 @@
               </div>
               <button class="button" data-toggle="unique-id">Show code</button>
               <div id="unique-id" data-toggler=".hide" class="hide">
+                <h6>HTML</h6>
                 <pre><code>
                   <!-- begin encoded html @ https://mothereff.in/html-entities -->
-                  // Sub-Page Typography
-                  .sub-page {
-                    .section-heading {
-                      h1 {
-                        color: $primary-color;
-                        margin-bottom: $sub-page-spacing;
-                        span {
-                          display: block;
-                        }
-                      }
-                      p {
-                        font-size: rem-calc(18);
-                      }
-                    }
-                    .main-content {
-                      font-size: rem-calc(14);
-                      h2 {
-                        font-size: rem-calc(32);
-                        font-weight: $global-weight-medium;
-                        margin-bottom: $sub-page-spacing;
-                      }
-                      p, ul, ol {
-                        font-size: inherit;
-                        margin-bottom: $sub-page-spacing;
-                      }
-                    }
-                  }
+&#x3C;section class=&#x22;content-section sub-page&#x22;&#x3E;
+  &#x3C;div class=&#x22;row columns&#x22;&#x3E;
+    &#x3C;div class=&#x22;row&#x22;&#x3E;
+      &#x3C;div class=&#x22;columns large-8 large-centered&#x22;&#x3E;
+        &#x3C;div class=&#x22;section-heading text-center&#x22;&#x3E;
+          &#x3C;h1&#x3E;.sub-page .section-heading H1&#x3C;/h1&#x3E;
+          &#x3C;p&#x3E;.sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. &#x3C;/p&#x3E;
+        &#x3C;/div&#x3E;
+      &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;content-wrapper&#x22;&#x3E;
+      &#x3C;div class=&#x22;row&#x22;&#x3E;
+        &#x3C;div class=&#x22;column large-7&#x22;&#x3E;
+          &#x3C;div id=&#x22;main-content&#x22; class=&#x22;main-content&#x22;&#x3E;
+            &#x3C;h2&#x3E;.sub-page .main-content h2&#x3C;/h2&#x3E;
+            &#x3C;p&#x3E;.sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. &#x3C;/p&#x3E;
+            &#x3C;p&#x3E;.main-content ol:&#x3C;/p&#x3E;
+            &#x3C;ol&#x3E;
+              &#x3C;li&#x3E;.main-content ol li&#x3C;/li&#x3E;
+              &#x3C;li&#x3E;.main-content ol li&#x3C;/li&#x3E;
+              &#x3C;li&#x3E;.main-content ol li&#x3C;/li&#x3E;
+            &#x3C;/ol&#x3E;
+            &#x3C;p&#x3E;.main-content ul:&#x3C;/p&#x3E;
+            &#x3C;ul&#x3E;
+              &#x3C;li&#x3E;.main-content ul li&#x3C;/li&#x3E;
+              &#x3C;li&#x3E;.main-content ul li&#x3C;/li&#x3E;
+              &#x3C;li&#x3E;.main-content ul li&#x3C;/li&#x3E;
+              &#x3C;li&#x3E;.main-content ul li&#x3C;/li&#x3E;
+            &#x3C;/ul&#x3E;
+          &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+        &#x3C;div id=&#x22;sidebar&#x22; class=&#x22;sidebar form-gray column medium-8 medium-centered large-4 large-uncentered&#x22;&#x3E;
+          &#x3C;p&#x3E;Sidebar area&#x3C;/p&#x3E;
+        &#x3C;/div&#x3E;
+      &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+  &#x3C;/div&#x3E;
+&#x3C;/section&#x3E;
+<!-- end encoded html @ https://mothereff.in/html-entities -->
+</code></pre>
+<h6>CSS</h6>
+<pre><code>
+  <!-- begin encoded html @ https://mothereff.in/html-entities -->
+// Sub-Page Typography
+.sub-page {
+  .section-heading {
+    h1 {
+      color: $primary-color;
+      margin-bottom: $sub-page-spacing;
+      span {
+        display: block;
+      }
+    }
+    p {
+      font-size: rem-calc(18);
+    }
+  }
+  .main-content {
+    font-size: rem-calc(14);
+    h2 {
+      font-size: rem-calc(32);
+      font-weight: $global-weight-medium;
+      margin-bottom: $sub-page-spacing;
+    }
+    p, ul, ol {
+      font-size: inherit;
+      margin-bottom: $sub-page-spacing;
+    }
+  }
+}
                   <!-- end encoded html @ https://mothereff.in/html-entities -->
                 </code></pre>
 
@@ -284,26 +328,49 @@
             <section id="buttons">
               <h3>Buttons</h3>
               <p>To render button styles, a "button" class is required, even on 'button' elements.</p>
-              <button type="button" name="button">unstyled button element</button>
-              <button class="button" type="button" name="button">.button(.primary)</button>
-              <button class="button secondary" type="button" name="button">.button.secondary</button>
-              <button class="button dark-gray" type="button" name="button">.button.dark-gray</button>
-              <button class="button medium-gray" type="button" name="button">.button.medium-gray</button>
-              <a class="button tiny" href="#">So Tiny</a>
-              <a class="button small" href="#">So Small</a>
-              <a class="button" href="#">So Basic</a>
-              <a class="button large" href="#">So Large</a>
-              <a class="button expanded" href="#">Such Expand</a>
-              <a class="button small expanded" href="#">Wow, Small Expand</a>
+              <button type="button" name="button">unstyled button element</button><br><br>
+              <button class="button" type="button" name="button">.button (.button.primary)</button><br>
+              <button class="button secondary" type="button" name="button">.button.secondary</button><br>
+              <button class="button dark-gray" type="button" name="button">.button.dark-gray</button><br>
+              <button class="button medium-gray" type="button" name="button">.button.medium-gray</button><br>
 
-              <button class="button" data-toggle="another-unique-id">Show code</button>
-              <div id="another-unique-id" data-toggler=".hide" class="hide">
+              <button class="button" data-toggle="buttons-sample">Show button code</button>
+              <div id="buttons-sample" data-toggler=".hide" class="hide">
                 <pre><code>
                   <!-- begin encoded html @ https://mothereff.in/html-entities -->
-
+&#x3C;button type=&#x22;button&#x22; name=&#x22;button&#x22;&#x3E;unstyled button element&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;button&#x22; type=&#x22;button&#x22; name=&#x22;button&#x22;&#x3E;.button (.button.primary)&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;button secondary&#x22; type=&#x22;button&#x22; name=&#x22;button&#x22;&#x3E;.button.secondary&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;button dark-gray&#x22; type=&#x22;button&#x22; name=&#x22;button&#x22;&#x3E;.button.dark-gray&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;button medium-gray&#x22; type=&#x22;button&#x22; name=&#x22;button&#x22;&#x3E;.button.medium-gray&#x3C;/button&#x3E;
                   <!-- end encoded html @ https://mothereff.in/html-entities -->
                 </code></pre>
-                <p><strong>Renders as:</strong></p>
+                <!-- <p><strong>Renders as:</strong></p> -->
+                <!-- Begin Rendered Example -->
+
+                <!-- End Rendered Example -->
+              </div>
+              <h4>Button sizes</h4>
+              <a class="button tiny">So Tiny</a>
+              <a class="button small">So Small</a>
+              <a class="button">So Basic</a>
+              <a class="button large">So Large</a>
+              <a class="button expanded">Such Expand</a><br>
+              <a class="button small expanded">Wow, Small Expand</a>
+
+              <button class="button" data-toggle="buttons-sizes">Show button sizes code</button>
+              <div id="buttons-sizes" data-toggler=".hide" class="hide">
+                <pre><code>
+                  <!-- begin encoded html @ https://mothereff.in/html-entities -->
+&#x3C;a class=&#x22;button tiny&#x22;&#x3E;So Tiny&#x3C;/a&#x3E;
+&#x3C;a class=&#x22;button small&#x22;&#x3E;So Small&#x3C;/a&#x3E;
+&#x3C;a class=&#x22;button&#x22;&#x3E;So Basic&#x3C;/a&#x3E;
+&#x3C;a class=&#x22;button large&#x22;&#x3E;So Large&#x3C;/a&#x3E;
+&#x3C;a class=&#x22;button expanded&#x22;&#x3E;Such Expand&#x3C;/a&#x3E;&#x3C;br&#x3E;
+&#x3C;a class=&#x22;button small expanded&#x22;&#x3E;Wow, Small Expand&#x3C;/a&#x3E;
+                  <!-- end encoded html @ https://mothereff.in/html-entities -->
+                </code></pre>
+                <!-- <p><strong>Renders as:</strong></p> -->
                 <!-- Begin Rendered Example -->
 
                 <!-- End Rendered Example -->

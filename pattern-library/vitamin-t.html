@@ -155,31 +155,147 @@
               </div>
             </section>
             <hr>
-            <section id="feature-2">
-              <h3>Example Feature 2</h3>
-              <p>Galaxies the ash of stellar alchemy! Two ghostly white figures in coveralls and helmets are soflty dancing how far away Hypatia? Brain is the seed of intelligence radio telescope the carbon in our apple pies globular star cluster! Trillion
-                hearts of the stars? Cosmic fugue laws of physics, permanence of the stars cosmos gathered by gravity, not a sunrise but a galaxyrise radio telescope tingling of the spine! Cosmos billions upon billions hearts of the stars take root and
-                flourish the sky calls to us at the edge of forever cosmic ocean encyclopaedia galactica?</p>
+            <section id="typography">
+              <h3>Typography</h3>
+              <ul>
+                <li>Base font: Open Sans</li>
+                <li>Base font size: 16px (1em)</li>
+                <li>Links: based on <a>$primary-color</a> variable</li>
+              </ul>
+              <h1>I am h1</h1>
+              <h2>I am h2</h2>
+              <h3>I am h3</h3>
+              <h4>I am h4</h4>
+              <h5>I am h5</h5>
+              <h6>I am h6</h6>
+              <hr>
+              <h4>VT-Specific Utility Classes</h4>
+              <ul>
+                <li>.uppercase</li>
+              </ul>
+              <button class="button" data-open="sub-page">Sub-Page Example</button>
+              <div id="sub-page" class="reveal large" data-reveal>
+                <button class="close-button" data-close aria-label="Close modal" type="button">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <section class="content-section sub-page">
+                  <div class="row columns">
+                    <div class="row">
+                      <div class="columns large-8 large-centered">
+                        <div class="section-heading text-center">
+                          <h1>.sub-page .section-heading H1</h1>
+                          <p>.sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content-wrapper">
+                      <div class="row">
+                        <div class="column large-7">
+                          <div id="main-content" class="main-content">
+                            <h2>.sub-page .main-content h2</h2>
+                            <p>.sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. </p>
+                            <p>.main-content ol:</p>
+                            <ol>
+                              <li>.main-content ol li</li>
+                              <li>.main-content ol li</li>
+                              <li>.main-content ol li</li>
+                            </ol>
+                            <p>.main-content ul:</p>
+                            <ul>
+                              <li>.main-content ul li</li>
+                              <li>.main-content ul li</li>
+                              <li>.main-content ul li</li>
+                              <li>.main-content ul li</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div id="sidebar" class="sidebar form-gray column medium-8 medium-centered large-4 large-uncentered">
+                          <p>Sidebar area</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
               <button class="button" data-toggle="unique-id">Show code</button>
               <div id="unique-id" data-toggler=".hide" class="hide">
                 <pre><code>
                   <!-- begin encoded html @ https://mothereff.in/html-entities -->
-
+                  // Sub-Page Typography
+                  .sub-page {
+                    .section-heading {
+                      h1 {
+                        color: $primary-color;
+                        margin-bottom: $sub-page-spacing;
+                        span {
+                          display: block;
+                        }
+                      }
+                      p {
+                        font-size: rem-calc(18);
+                      }
+                    }
+                    .main-content {
+                      font-size: rem-calc(14);
+                      h2 {
+                        font-size: rem-calc(32);
+                        font-weight: $global-weight-medium;
+                        margin-bottom: $sub-page-spacing;
+                      }
+                      p, ul, ol {
+                        font-size: inherit;
+                        margin-bottom: $sub-page-spacing;
+                      }
+                    }
+                  }
                   <!-- end encoded html @ https://mothereff.in/html-entities -->
                 </code></pre>
 
                 <p><strong>Renders as:</strong></p>
                 <!-- Begin Rendered Example -->
+                <div class="sub-page">
+                  <div class="section-heading">
+                    <h1>.sub-page .section-heading h1</h1>
+                    <p>.sub-page .section-heading p</p>
+                  </div>
+                  <div class="main-content">
+                    <h2>.main-content h2</h2>
+                    <p>.main-content p</p>
+                    <p>.main-content ol:</p>
+                    <ol>
+                      <li>.main-content ol li</li>
+                      <li>.main-content ol li</li>
+                      <li>.main-content ol li</li>
+                    </ol>
+                    <p>.main-content ul:</p>
+                    <ul>
+                      <li>.main-content ul li</li>
+                      <li>.main-content ul li</li>
+                      <li>.main-content ul li</li>
+                      <li>.main-content ul li</li>
+                    </ul>
+                  </div>
 
+                </div>
                 <!-- End Rendered Example -->
               </div>
             </section>
             <hr>
-            <section id="feature-3">
-              <h3>Example Feature 3</h3>
-              <p>Brain is the seed of intelligence muse about hundreds of thousands quasar worldlets light years Drake Equation, citizens of distant epochs? Rings of Uranus inconspicuous motes of rock and gas a billion trillion decipherment explorations.
-                Birth Sea of Tranquility take root and flourish permanence of the stars white dwarf Drake Equation something incredible is waiting to be known. Corpus callosum, intelligent beings, another world not a sunrise but a galaxyrise white dwarf
-                across the centuries! Rich in mystery great turbulent clouds shores of the cosmic ocean. Quasar, Hypatia, permanence of the stars, prime number as a patch of light?</p>
+            <section id="buttons">
+              <h3>Buttons</h3>
+              <p>To render button styles, a "button" class is required, even on 'button' elements.</p>
+              <button type="button" name="button">unstyled button element</button>
+              <button class="button" type="button" name="button">.button(.primary)</button>
+              <button class="button secondary" type="button" name="button">.button.secondary</button>
+              <button class="button dark-gray" type="button" name="button">.button.dark-gray</button>
+              <button class="button medium-gray" type="button" name="button">.button.medium-gray</button>
+              <a class="button tiny" href="#">So Tiny</a>
+              <a class="button small" href="#">So Small</a>
+              <a class="button" href="#">So Basic</a>
+              <a class="button large" href="#">So Large</a>
+              <a class="button expanded" href="#">Such Expand</a>
+              <a class="button small expanded" href="#">Wow, Small Expand</a>
+
               <button class="button" data-toggle="another-unique-id">Show code</button>
               <div id="another-unique-id" data-toggler=".hide" class="hide">
                 <pre><code>
@@ -200,8 +316,8 @@
             <nav class="sticky" data-sticky data-anchor="content" data-sticky-on="small">
               <ul class="vertical menu" data-magellan>
                 <li><a href="#colors">Colors</a></li>
-                <li><a href="#feature-2">Feature 2</a></li>
-                <li><a href="#feature-3">Feature 3</a></li>
+                <li><a href="#typography">Typography</a></li>
+                <li><a href="#buttons">Buttons</a></li>
               </ul>
             </nav>
           </div>

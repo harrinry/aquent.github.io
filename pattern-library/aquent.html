@@ -158,8 +158,11 @@
             </section>
             <section id="typography">
               <h3>Typography</h3>
+              <p>To do: Typography will require code examples. Add Separator and Sidelines styles</p>
               <ul>
                 <li>Base font: Open Sans</li>
+                <li>Secondary font: Montserrat</li>
+                <li>Header font family: Playfair Display</li>
                 <li>Base font size: 16px (1em)</li>
                 <li>Links: based on <a>$primary-color</a> variable</li>
               </ul>
@@ -170,160 +173,30 @@
               <h5>I am h5</h5>
               <h6>I am h6</h6>
               <hr>
-              <h4>VT-Specific Utility Classes</h4>
+              <h4>AQ-Specific Utility Classes</h4>
               <ul>
                 <li>.uppercase</li>
+                <li>.defaultcase</li>
+                <li>.sans-serif</li>
+                <li>.serif</li>
+                <li>.line-break</li>
+                <li>.light</li>
+                <li>.no-bullet</li>
+                <li>.subheader</li>
+                <li>.lead</li>
+                <li>.stat</li>
+                <li>.text-white</li>
+                <li>.text-secondary</li>
+                <li>.text-onyx</li>
+                <li>.text-black</li>
+                <li>.text-inline</li>
+                <li>.separated</li>
+                <li>.separated-left</li>
+                <li>.separated-right</li>
+                <li>.separated-center</li>
+                <li>.sidelines</li>
               </ul>
-              <button class="button" data-open="sub-page">Sub-Page Example</button>
-              <div id="sub-page" class="reveal large" data-reveal>
-                <button class="close-button" data-close aria-label="Close modal" type="button">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-                <section class="content-section sub-page">
-                  <div class="row columns">
-                    <div class="row">
-                      <div class="columns large-8 large-centered">
-                        <div class="section-heading text-center">
-                          <h1>.sub-page .section-heading H1</h1>
-                          <p>.sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="content-wrapper">
-                      <div class="row">
-                        <div class="column large-7">
-                          <div id="main-content" class="main-content">
-                            <h2>.sub-page .main-content h2</h2>
-                            <p>.sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. </p>
-                            <p>.main-content ol:</p>
-                            <ol>
-                              <li>.main-content ol li</li>
-                              <li>.main-content ol li</li>
-                              <li>.main-content ol li</li>
-                            </ol>
-                            <p>.main-content ul:</p>
-                            <ul>
-                              <li>.main-content ul li</li>
-                              <li>.main-content ul li</li>
-                              <li>.main-content ul li</li>
-                              <li>.main-content ul li</li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div id="sidebar" class="sidebar form-gray column medium-8 medium-centered large-4 large-uncentered">
-                          <p>Sidebar area</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-              <button class="button" data-toggle="unique-id">Show code</button>
-              <div id="unique-id" data-toggler=".hide" class="hide">
-                <h6>HTML</h6>
-                <pre><code>
-                  <!-- begin encoded html @ https://mothereff.in/html-entities -->
-  &#x3C;section class=&#x22;content-section sub-page&#x22;&#x3E;
-  &#x3C;div class=&#x22;row columns&#x22;&#x3E;
-    &#x3C;div class=&#x22;row&#x22;&#x3E;
-      &#x3C;div class=&#x22;columns large-8 large-centered&#x22;&#x3E;
-        &#x3C;div class=&#x22;section-heading text-center&#x22;&#x3E;
-          &#x3C;h1&#x3E;.sub-page .section-heading H1&#x3C;/h1&#x3E;
-          &#x3C;p&#x3E;.sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. .sub-page .section-headingparagraph. &#x3C;/p&#x3E;
-        &#x3C;/div&#x3E;
-      &#x3C;/div&#x3E;
-    &#x3C;/div&#x3E;
-    &#x3C;div class=&#x22;content-wrapper&#x22;&#x3E;
-      &#x3C;div class=&#x22;row&#x22;&#x3E;
-        &#x3C;div class=&#x22;column large-7&#x22;&#x3E;
-          &#x3C;div id=&#x22;main-content&#x22; class=&#x22;main-content&#x22;&#x3E;
-            &#x3C;h2&#x3E;.sub-page .main-content h2&#x3C;/h2&#x3E;
-            &#x3C;p&#x3E;.sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. .sub-page .main-content p. &#x3C;/p&#x3E;
-            &#x3C;p&#x3E;.main-content ol:&#x3C;/p&#x3E;
-            &#x3C;ol&#x3E;
-              &#x3C;li&#x3E;.main-content ol li&#x3C;/li&#x3E;
-              &#x3C;li&#x3E;.main-content ol li&#x3C;/li&#x3E;
-              &#x3C;li&#x3E;.main-content ol li&#x3C;/li&#x3E;
-            &#x3C;/ol&#x3E;
-            &#x3C;p&#x3E;.main-content ul:&#x3C;/p&#x3E;
-            &#x3C;ul&#x3E;
-              &#x3C;li&#x3E;.main-content ul li&#x3C;/li&#x3E;
-              &#x3C;li&#x3E;.main-content ul li&#x3C;/li&#x3E;
-              &#x3C;li&#x3E;.main-content ul li&#x3C;/li&#x3E;
-              &#x3C;li&#x3E;.main-content ul li&#x3C;/li&#x3E;
-            &#x3C;/ul&#x3E;
-          &#x3C;/div&#x3E;
-        &#x3C;/div&#x3E;
-        &#x3C;div id=&#x22;sidebar&#x22; class=&#x22;sidebar form-gray column medium-8 medium-centered large-4 large-uncentered&#x22;&#x3E;
-          &#x3C;p&#x3E;Sidebar area&#x3C;/p&#x3E;
-        &#x3C;/div&#x3E;
-      &#x3C;/div&#x3E;
-    &#x3C;/div&#x3E;
-  &#x3C;/div&#x3E;
-  &#x3C;/section&#x3E;
-  <!-- end encoded html @ https://mothereff.in/html-entities -->
-  </code></pre>
-  <h6>CSS</h6>
-  <pre><code>
-  <!-- begin encoded html @ https://mothereff.in/html-entities -->
-  // Sub-Page Typography
-  .sub-page {
-  .section-heading {
-    h1 {
-      color: $primary-color;
-      margin-bottom: $sub-page-spacing;
-      span {
-        display: block;
-      }
-    }
-    p {
-      font-size: rem-calc(18);
-    }
-  }
-  .main-content {
-    font-size: rem-calc(14);
-    h2 {
-      font-size: rem-calc(32);
-      font-weight: $global-weight-medium;
-      margin-bottom: $sub-page-spacing;
-    }
-    p, ul, ol {
-      font-size: inherit;
-      margin-bottom: $sub-page-spacing;
-    }
-  }
-  }
-                  <!-- end encoded html @ https://mothereff.in/html-entities -->
-                </code></pre>
 
-                <p><strong>Renders as:</strong></p>
-                <!-- Begin Rendered Example -->
-                <div class="sub-page">
-                  <div class="section-heading">
-                    <h1>.sub-page .section-heading h1</h1>
-                    <p>.sub-page .section-heading p</p>
-                  </div>
-                  <div class="main-content">
-                    <h2>.main-content h2</h2>
-                    <p>.main-content p</p>
-                    <p>.main-content ol:</p>
-                    <ol>
-                      <li>.main-content ol li</li>
-                      <li>.main-content ol li</li>
-                      <li>.main-content ol li</li>
-                    </ol>
-                    <p>.main-content ul:</p>
-                    <ul>
-                      <li>.main-content ul li</li>
-                      <li>.main-content ul li</li>
-                      <li>.main-content ul li</li>
-                      <li>.main-content ul li</li>
-                    </ul>
-                  </div>
-
-                </div>
-                <!-- End Rendered Example -->
-              </div>
             </section>
             <hr>
             <section id="feature-3">

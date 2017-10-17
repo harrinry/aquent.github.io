@@ -416,6 +416,7 @@
 .ndpl-header__logo {
     float: left;
     height: 28px;
+    width: 28px;
     margin: 0 6px 0 0;
 }
 .ndpl-header__title {
@@ -437,6 +438,7 @@
     font-size: 60%;
     font-weight: 300;
     margin-left: 6px;
+    padding-top: 10px;
 }
 
 @media only screen and (min-width: 60em) {
@@ -482,6 +484,7 @@
     float: left;
     margin: 0 0 24px 0;
     height: 50px;
+    width: 50px;
 }
 
 @media only screen and (min-width: 60em) {
@@ -527,6 +530,7 @@
         display: block;
         font-size: 16px;
         font-weight: 400;
+        padding-top: 10px;
     }
 }
 

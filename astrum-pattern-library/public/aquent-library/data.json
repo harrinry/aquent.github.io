@@ -119,7 +119,18 @@
                     "title": "Buttons"
                 }
             ]
-        }
+          },
+          {
+              "name": "forms",
+              "title": "Forms",
+              "components": [
+                  {
+                      "group": "forms",
+                      "name": "default",
+                      "title": "Forms"
+                  }
+              ]
+            }
     ],
     "version": "1.9.5"
 }

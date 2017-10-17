@@ -1,0 +1,88 @@
+### OS GENERATED FILES ###
+##########################
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### Node ###
+node_modules
+jspm_packages
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+### Bower ###
+bower_components
+src/bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+
+tags
+.tags
+.tags1
+.tern-project
+
+## SRC STUFF
+######################################################
+## SVG Processing Files/Folders
+src/**/svg/processed/
+src/**/scss/_svgicons.scss
+src/**/scss/_iconfont.scss
+src/**/scss/_icon-map.scss
+
+## PER-HOST RULES #
+##################
+
+dist/vitamintalent.com/videos/
+dist/vitamintalent.com/css/**/main*.css
+dist/vitamintalent.com/**/*.map
+dist/vitamintalent.com/**/app*.js
+dist/vitamintalent.com/**/*.html
+dist/vitamintalent.com/fonts/
+dist/vitamintalent.com/extra/infographics-viewer/*/TileGroup*
+dist/vitamintalent.com/common/img
+
+dist/old.vitamintalent.com/common/img/vitabites/
+
+dist/assets.aquent.com/videos/
+
+dist/thetalentcalendar.com/css/**/*.css
+dist/thetalentcalendar.com/**/*.map
+dist/thetalentcalendar.com/**/app*.js
+dist/thetalentcalendar.com/**/*.html
+
+dist/aquent.com/css/**/*.css
+dist/aquent.com/css/**/*.min.css
+dist/aquent.com/css/**/*.map
+dist/aquent.com/js/*.js
+dist/aquent.com/js/*.map
+dist/aquent.com/**/*.html
+
+dist/aquentcareers.com.au/css/**/*.css
+dist/aquentcareers.com.au/css/**/*.min.css
+dist/aquentcareers.com.au/css/**/*.map
+dist/aquentcareers.com.au/js/*.js
+dist/aquentcareers.com.au/js/*.map
+dist/aquentcareers.com.au/**/*.html
+
+## Temporary for CFF
+dotcms

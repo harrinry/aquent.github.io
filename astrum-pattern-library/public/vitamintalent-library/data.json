@@ -88,6 +88,11 @@
                         "#322f28",
                         "#1e1a17"
                     ]
+                },
+                {
+                    "group": "branding",
+                    "name": "color-render",
+                    "title": "Color-render"
                 }
             ]
         },

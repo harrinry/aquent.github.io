@@ -90,12 +90,12 @@
                         "#181818",
                         "#010100"
                     ]
-                  },
-                  {
-                      "group": "branding",
-                      "name": "color-render",
-                      "title": "Color-render"
-                  }
+                },
+                {
+                    "group": "branding",
+                    "name": "color-render",
+                    "title": "Color-render"
+                }
             ]
         },
         {
@@ -119,18 +119,18 @@
                     "title": "Buttons"
                 }
             ]
-          },
-          {
-              "name": "forms",
-              "title": "Forms",
-              "components": [
-                  {
-                      "group": "forms",
-                      "name": "default",
-                      "title": "Forms"
-                  }
-              ]
-            }
+        },
+        {
+            "name": "forms",
+            "title": "Forms",
+            "components": [
+                {
+                    "group": "forms",
+                    "name": "default",
+                    "title": "Forms"
+                }
+            ]
+        }
     ],
     "version": "1.9.5"
 }

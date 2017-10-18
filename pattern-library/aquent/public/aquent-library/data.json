@@ -126,8 +126,15 @@
             "components": [
                 {
                     "group": "forms",
-                    "name": "default",
-                    "title": "Forms"
+                    "name": "input",
+                    "title": "Input",
+                    "width": "half"
+                },
+                {
+                    "group": "forms",
+                    "name": "checkbox",
+                    "title": "Checkbox",
+                    "width": "half"
                 }
             ]
         }

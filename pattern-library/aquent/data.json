@@ -1,0 +1,148 @@
+{
+    "project_logo": "https://aquent.com/svg/aquent-logo-orange.svg",
+    "project_favicon": "//assets.aquent.com/img/new-aq-favicon.ico",
+    "project_name": "Aquent",
+    "project_url": "https://aquent.com/",
+    "copyright_start_year": null,
+    "client_name": "Aquent",
+    "client_url": "https://aquent.com/",
+    "creators": [
+        {
+            "name": null,
+            "url": null
+        }
+    ],
+    "theme": {
+        "border_color": "#E0E6ED",
+        "highlight_color": "#F9FAFC",
+        "brand_color": "#4cc1e0",
+        "background_color": "#FFFFFF",
+        "code_highlight_theme": "github",
+        "override_code_highlight_bg": "#F9FAFC",
+        "sample_dark_background": "#333333",
+        "show_project_name": true,
+        "show_version": true,
+        "max_width": null,
+        "titles": {
+            "library_title": "Pattern Library",
+            "pages_title": "Overview",
+            "components_title": "Components"
+        }
+    },
+    "assets": {
+        "css": [
+            "https://aquent.com/css/main.css"
+        ],
+        "js": [
+            "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js"
+        ]
+    },
+    "font_libraries": {
+        "typekit_code": null,
+        "typography_web_fonts": null,
+        "google_web_fonts": null
+    },
+    "content": {
+        "show_first_page_on_load": true,
+        "title": "Overview",
+        "pages": [
+            {
+                "name": "introduction",
+                "title": "Introduction",
+                "file": "./pages/intro.md"
+            }
+        ]
+    },
+    "groups": [
+        {
+            "name": "branding",
+            "title": "Colors",
+            "components": [
+                {
+                    "group": "branding",
+                    "name": "color-palette",
+                    "title": "Foundation Colors",
+                    "type": "colors",
+                    "colors": [
+                        "#4cc1e0",
+                        "#f8971d",
+                        "#fed301",
+                        "#f8c014",
+                        "#3adb76",
+                        "#ffae00",
+                        "#ef4123"
+                    ]
+                },
+                {
+                    "group": "branding",
+                    "name": "mono-palette",
+                    "title": "Monochromatic",
+                    "type": "colors",
+                    "colors": [
+                        "#ffffff",
+                        "#fafafa",
+                        "#f7f7f7",
+                        "#F9FAFA",
+                        "#eaeaea",
+                        "#777777",
+                        "#8a8a8a",
+                        "#353839",
+                        "#181818",
+                        "#010100"
+                    ]
+                },
+                {
+                    "group": "branding",
+                    "name": "color-render",
+                    "title": "Color-render"
+                }
+            ]
+        },
+        {
+            "name": "typography",
+            "title": "Typography",
+            "components": [
+                {
+                    "group": "typography",
+                    "name": "default",
+                    "title": "Typography"
+                },
+                {
+                    "group": "typography",
+                    "name": "ornamentation",
+                    "title": "Ornamentation"
+                }
+            ]
+        },
+        {
+            "name": "buttons",
+            "title": "Buttons",
+            "components": [
+                {
+                    "group": "buttons",
+                    "name": "default",
+                    "title": "Buttons"
+                }
+            ]
+        },
+        {
+            "name": "forms",
+            "title": "Forms",
+            "components": [
+                {
+                    "group": "forms",
+                    "name": "input",
+                    "title": "Input",
+                    "width": "half"
+                },
+                {
+                    "group": "forms",
+                    "name": "checkbox",
+                    "title": "Checkbox",
+                    "width": "half"
+                }
+            ]
+        }
+    ],
+    "version": "1.9.5"
+}

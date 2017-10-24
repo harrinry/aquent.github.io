@@ -1,2 +1,42 @@
+### OS GENERATED FILES ###
+##########################
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
 ### Node ###
 node_modules
+jspm_packages
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+### Bower ###
+bower_components
+src/bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+
+tags
+.tags
+.tags1
+.tern-project

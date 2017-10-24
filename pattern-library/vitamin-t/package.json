@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "astrum": "^1.9.5",
-    "http-server": "^0.10.0"
+    "serve": "^6.3.1"
   }
 }

@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "astrum": "^1.9.5",
-    "serve": "^6.3.1"
-  }
-}

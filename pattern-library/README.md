@@ -26,7 +26,7 @@ $ cd ~/[your-path-to-repos]/aquent.github.io/pattern-library/vitamin-t
 * Run `yarn serve` to spin up your local environment.
 * Visit `localhost:5000` and you should see the pattern library for the site you just spun up.
 # Note
-In order to add/edit/delete components you must stop `ctrl c` [serve] if its running.
+If you're already running [serve], in order to add/edit/delete components, please open up a separate terminal tab, `cd` to the appropriate directory, and run your commands there. For now, you'll have to manually refresh your browser after making changes.
 # To add/edit/delete components
 ```sh
 $ cd ~/[your-path-to-repos]/aquent.github.io/pattern-library/[aquent-or-vt-library]

@@ -52,4 +52,6 @@ yarn install
 # Refresh the custom profile shell script
 source ~/.bash_profile
 
-echo "Installation complete. You should be good to go. If not, please bark at someone."
+echo ">>>>> Installation complete. You should be good to go. If not, please bark at someone."
+
+source ~/.bash_profile

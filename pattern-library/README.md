@@ -17,8 +17,9 @@
     * Open up `Finder` and browse to that folder, then position the `Finder` and `Terminal` windows so they're side-to-side
     * In `Terminal`, start typing `cd ` (cd followed by a space), then click on the `Finder` folder and drag it into `Terminal`. You should see something like `cd /Users/{yourusername}/…/…/pattern-library/`. If this looks correct, hit enter.
     * Once there, type in `ls` (list), and you should see a list of files, one of which should be `install.sh`
-    * type in `bash install.sh` and wait.
-    * That's it, you're done. You should be able to proceed to
+5. type in `git` and hit enter. You should get prompted to install an x-code developer extension. Please do so. Once done, proceed to the next step.
+6. type in `bash install.sh` and wait.
+7. That's it, you're done. You should be able to proceed to the next steps under [Using Astrum](#Using-Astrum)
 
 ## Getting started (Complicated) - better for advanced users, and Linux
 This is all command line, baby.

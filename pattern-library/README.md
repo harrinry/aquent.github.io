@@ -92,6 +92,9 @@ $ astrum new {component group type folder}/{component folder} (example: `astrum 
 * [Introduction to the Mac OS X Command Line](http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line)
 * [Getting to Know the Command Line](https://www.davidbaumgold.com/tutorials/command-line/)
 * [Apple Command Line Primer](https://developer.apple.com/library/content/documentation/OpenSource/Conceptual/ShellScripting/CommandLInePrimer/CommandLine.html)
+### Markdown
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Dillinger Markdown Generator](https://dillinger.io/)
 
 [//]: #
 

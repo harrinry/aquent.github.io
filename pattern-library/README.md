@@ -9,7 +9,7 @@
 * [yarn] installed as a global resource
 * [serve] (installed automatically)
 
-## Getting started (Simple)
+## Getting started (Simple) - Beginners, Mac only
 1. Clone the repository to your computer via command line or the Github Desktop app (remember where you cloned it)
 2. open up `Terminal`
 3. type `cd` (this will bring you to your home folder, aka `~/{yourusername}`)
@@ -20,8 +20,8 @@
     * type in `bash install.sh` and wait.
     * That's it, you're done. You should be able to proceed to
 
-## Getting started (Complicated)
-
+## Getting started (Complicated) - better for advanced users, and Linux
+This is all command line, baby.
 1. Know whether or not you have a custom shell script. This is a hidden file in your user folder, typically called `.bash_profile` on Mac OS X, or `.bashrc` in Linux.
 2. If you haven't installed Node Version Manager, do so: `curl -o- -L https://yarnpkg.com/install.sh | bash`, otherwise, skip to step 3.
 3. Install `node` using `nvm`: `nvm install 6.11.5`

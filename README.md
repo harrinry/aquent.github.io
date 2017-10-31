@@ -2,4 +2,4 @@
 …
 
 ## Pattern Libraries
-[Installation instructions](/tree/master/pattern-library#pattern-libraries)
+[Installation instructions](https://github.com/aquent/aquent.github.io/blob/master/pattern-library/README.md#pattern-libraries)

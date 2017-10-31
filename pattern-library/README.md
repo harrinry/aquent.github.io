@@ -15,7 +15,7 @@
 3. type `cd` (this will bring you to your home folder, aka `~/{yourusername}`)
 4. next, we'll have to get tell terminal where to find that repository from `step 1`
     * Open up `Finder` and browse to that folder, then position the `Finder` and `Terminal` windows so they're side-to-side
-    * In `Terminal`, start typing `cd ` (cd followed by a space), then click on the `Finder` folder and drag it into `Terminal`. You should see something like `cd /Users/{yourusername}/…`. If this looks correct, hit enter.
+    * In `Terminal`, start typing `cd ` (cd followed by a space), then click on the `Finder` folder and drag it into `Terminal`. You should see something like `cd /Users/{yourusername}/…/…/pattern-library/`. If this looks correct, hit enter.
     * Once there, type in `ls` (list), and you should see a list of files, one of which should be `install.sh`
     * type in `bash install.sh` and wait.
     * That's it, you're done. You should be able to proceed to

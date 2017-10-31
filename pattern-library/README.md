@@ -19,7 +19,7 @@
     * Once there, type in `ls` (list), and you should see a list of files, one of which should be `install.sh`
 5. type in `git` and hit enter. You should get prompted to install an x-code developer extension. Please do so. Once done, proceed to the next step.
 6. type in `bash install.sh` and wait.
-7. That's it, you're done. You should be able to proceed to the next steps under [Using Astrum](#Using-Astrum)
+7. That's it, you're done. You should be able to proceed to the next steps under [Using Astrum](#using-astrum)
 
 ## Getting started (Complicated) - better for advanced users, and Linux
 This is all command line, baby.
@@ -33,7 +33,7 @@ This is all command line, baby.
 8. Repeat step 6
 9. Install the dependencies for our tool: `yarn install`
 10. Repeat step 6
-11. Start [using Astrum](#Using-Astrum)
+11. Start [using Astrum](#using-astrum)
 
 ## Using Astrum
 Basic instructions are below, but further details can be found at the [astrum] documentation.

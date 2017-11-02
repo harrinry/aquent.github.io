@@ -1,21 +1,21 @@
 {
-    "project_logo": "https://i.imgur.com/YFC9kYO.png",
+    "project_logo": "http://svgshare.com/i/3is.svg",
     "project_favicon": "favicon.png",
-    "project_name": null,
+    "project_name": "My Aquent Client" ,
     "project_url": null,
-    "copyright_start_year": null,
+    "copyright_start_year": 2017,
     "client_name": null,
     "client_url": null,
     "creators": [
         {
-            "name": null,
-            "url": null
+            "name": "Patrick Branigan",
+            "url": "http://twitter.com/pbranigan"
         }
     ],
     "theme": {
-        "border_color": "#E0E6ED",
+        "border_color": "#F2F2F2",
         "highlight_color": "#F9FAFC",
-        "brand_color": "#00585C",
+        "brand_color": "#F8971D",
         "background_color": "#FFFFFF",
         "code_highlight_theme": "github",
         "override_code_highlight_bg": "#F9FAFC",
@@ -25,7 +25,7 @@
         "max_width": null,
         "titles": {
             "library_title": "Pattern Library",
-            "pages_title": "Overview",
+            "pages_title": "Getting Started",
             "components_title": "Components"
         }
     },
@@ -40,7 +40,7 @@
     },
     "content": {
         "show_first_page_on_load": true,
-        "title": "Overview",
+        "title": "Getting Started",
         "pages": [
             {
                 "name": "introduction",
@@ -49,6 +49,18 @@
             }
         ]
     },
-    "groups": [],
+    "groups": [
+        {
+            "name": "navigation",
+            "title": "Navigation",
+            "components": [
+                {
+                    "group": "navigation",
+                    "name": "primary",
+                    "title": "Navigation"
+                }
+            ]
+        }
+    ],
     "version": "1.9.5"
 }

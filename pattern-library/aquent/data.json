@@ -151,6 +151,11 @@
                     "group": "layout",
                     "name": "fifty-fifty",
                     "title": "Fifty fifty block"
+                },
+                {
+                    "group": "layout",
+                    "name": "4x4",
+                    "title": "4x4 Panel"
                 }
             ]
         }

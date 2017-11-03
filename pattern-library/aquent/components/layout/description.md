@@ -1,1 +1,1 @@
-Used on blog and expertise pages. Add a class of `flip` to switch the position of the content. 
+Used on blog, expertise, and talent pool pages. Add a class of `flip` to switch the position of the content. 

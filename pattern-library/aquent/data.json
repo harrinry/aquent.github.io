@@ -142,6 +142,17 @@
                     "width": "half"
                 }
             ]
+        },
+        {
+            "name": "layout",
+            "title": "Layout",
+            "components": [
+                {
+                    "group": "layout",
+                    "name": "fifty-fifty",
+                    "title": "Fifty fifty block"
+                }
+            ]
         }
     ],
     "version": "1.9.5"

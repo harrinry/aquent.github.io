@@ -1,7 +1,7 @@
 {
     "project_logo": "http://svgshare.com/i/3is.svg",
     "project_favicon": "favicon.png",
-    "project_name": "My Aquent Client" ,
+    "project_name": "My Aquent Client",
     "project_url": null,
     "copyright_start_year": 2017,
     "client_name": null,
@@ -51,13 +51,18 @@
     },
     "groups": [
         {
-            "name": "navigation",
-            "title": "Navigation",
+            "name": "colors",
+            "title": "Colors",
             "components": [
                 {
-                    "group": "navigation",
-                    "name": "primary",
-                    "title": "Navigation"
+                    "group": "colors",
+                    "name": "brand",
+                    "title": "Brand"
+                },
+                {
+                    "group": "colors",
+                    "name": "interface",
+                    "title": "UI"
                 }
             ]
         }

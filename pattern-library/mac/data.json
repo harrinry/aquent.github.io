@@ -57,12 +57,37 @@
                 {
                     "group": "colors",
                     "name": "brand",
-                    "title": "Brand"
+                    "title": "Brand",
+                    "type": "colors",
+                    "colors": [
+                        "#F8971D",
+                        "#000000",
+                        "#FFFFFF"
+                    ]
                 },
                 {
                     "group": "colors",
-                    "name": "interface",
-                    "title": "UI"
+                    "name": "ui",
+                    "title": "UI",
+                    "type": "colors",
+                    "colors": [
+                        "#5BBDD8, #1A8CAC",
+                        "#F06635, #A52C03",
+                        "#5D2D62, #340939",
+                        "#F8C014, #9D7700",
+                        "#FF5A5F, #FF0007",
+                        "#4A4A4A, #CCCCCC, #F6F6F6",
+                    ]
+                },
+                {
+                    "group": "colors",
+                    "name": "notification",
+                    "title": "Notification",
+                    "type": "colors",
+                    "colors": [
+                      "#39B54a",
+                      "#EF4123"
+                    ]
                 }
             ]
         }

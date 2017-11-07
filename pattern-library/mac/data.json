@@ -1,7 +1,7 @@
 {
-    "project_logo": "http://svgshare.com/i/3is.svg",
+    "project_logo": "http://svgshare.com/i/3nu.svg",
     "project_favicon": "favicon.png",
-    "project_name": "My Aquent Client",
+    "project_name": null,
     "project_url": null,
     "copyright_start_year": 2017,
     "client_name": null,
@@ -24,13 +24,15 @@
         "show_version": true,
         "max_width": null,
         "titles": {
-            "library_title": "Pattern Library",
+            "library_title": null,
             "pages_title": "Getting Started",
             "components_title": "Components"
         }
     },
     "assets": {
-        "css": [],
+        "css": [
+            "../mac/cobranded.css"
+        ],
         "js": []
     },
     "font_libraries": {
@@ -85,9 +87,91 @@
                     "title": "Notification",
                     "type": "colors",
                     "colors": [
-                      "#39B54a",
-                      "#EF4123"
+                        "#39B54a",
+                        "#EF4123"
                     ]
+                }
+            ]
+        },
+        {
+            "name": "typography",
+            "title": "Typography",
+            "components": [
+                {
+                    "group": "typography",
+                    "name": "montserrat",
+                    "title": "Montserrat"
+                },
+                {
+                    "group": "typography",
+                    "name": "Open",
+                    "title": "Open Sans"
+                }
+            ]
+        },
+        {
+            "name": "buttons",
+            "title": "Buttons",
+            "components": [
+                {
+                    "name": "primary",
+                    "title": "Primary",
+                    "width": "half",
+                    "options": {},
+                    "group": "buttons"
+                },
+                {
+                    "group": "buttons",
+                    "name": "secondary",
+                    "title": "Secondary",
+                    "width": "half"
+                },
+                {
+                    "group": "buttons",
+                    "name": "disabled",
+                    "title": "Disabled",
+                    "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "controls",
+            "title": "Controls",
+            "components": [
+                {
+                    "group": "controls",
+                    "name": "input",
+                    "title": "Input",
+                    "width": "half"
+                },
+                {
+                    "group": "controls",
+                    "name": "checkbox",
+                    "title": "Checkbox",
+                    "width": "half"
+                },
+                {
+                    "group": "controls",
+                    "name": "radio",
+                    "title": "Radio Button",
+                    "width": "half"
+                },
+                {
+                    "group": "controls",
+                    "name": "stepper",
+                    "title": "Stepper",
+                    "width": "half"
+                },
+                {
+                    "group": "controls",
+                    "name": "toggle",
+                    "title": "Toggle",
+                    "width": "half"
+                },
+                {
+                    "group": "controls",
+                    "name": "dropdown",
+                    "title": "Dropdown"
                 }
             ]
         }

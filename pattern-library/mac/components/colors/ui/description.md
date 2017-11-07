@@ -1,1 +1,1 @@
-Colors primarily used in the make up of interface content and elements.
+Colors primarily used in the make up of interface elements and content.

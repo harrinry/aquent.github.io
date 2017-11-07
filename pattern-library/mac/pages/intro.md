@@ -10,6 +10,6 @@ Our product team uses Sketch as our primary tool for user interface design. Down
 
 ### Developers
 
-Our product team uses __ as our primary tool for visual creation of our user interfaces. Download the [MAC Sketch Library](file:///C:/my_file.pdf) to access this pattern library's symbols and shared components library.
+Insert a blurb for the product team developers – what they use, to start in MAC and any accompanying link in Git, Codpen, or other to get started.
 
 ![image](../mac/img/favicon2.png)

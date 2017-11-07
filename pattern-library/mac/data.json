@@ -38,7 +38,7 @@
     "font_libraries": {
         "typekit_code": null,
         "typography_web_fonts": null,
-        "google_web_fonts": null
+        "google_web_fonts": "@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900')"
     },
     "content": {
         "show_first_page_on_load": true,
@@ -73,12 +73,14 @@
                     "title": "UI",
                     "type": "colors",
                     "colors": [
-                        "#5BBDD8, #1A8CAC",
-                        "#F06635, #A52C03",
-                        "#5D2D62, #340939",
-                        "#F8C014, #9D7700",
-                        "#FF5A5F, #FF0007",
-                        "#4A4A4A, #CCCCCC, #F6F6F6"
+                        "#5BBDD8",
+                        "#5D2D62",
+                        "#FF5A5F",
+                        "#F06635",
+                        "#F8C014",
+                        "#4A4A4A",
+                        "#CCCCCC",
+                        "#F6F6F6"
                     ]
                 },
                 {
@@ -98,14 +100,16 @@
             "title": "Typography",
             "components": [
                 {
-                    "group": "typography",
                     "name": "montserrat",
-                    "title": "Montserrat"
+                    "title": "Montserrat",
+                    "width": "half",
+                    "group": "typography"
                 },
                 {
                     "group": "typography",
-                    "name": "Open",
-                    "title": "Open Sans"
+                    "name": "opensans",
+                    "title": "Open Sans",
+                    "width": "half"
                 }
             ]
         },
@@ -131,6 +135,12 @@
                     "name": "disabled",
                     "title": "Disabled",
                     "width": "half"
+                },
+                {
+                    "name": "other",
+                    "title": "Other",
+                    "width": "half",
+                    "group": "buttons"
                 }
             ]
         },
@@ -157,10 +167,10 @@
                     "width": "half"
                 },
                 {
-                    "group": "controls",
-                    "name": "stepper",
-                    "title": "Stepper",
-                    "width": "half"
+                    "name": "incrementer",
+                    "title": "Incrementer",
+                    "width": "half",
+                    "group": "controls"
                 },
                 {
                     "group": "controls",

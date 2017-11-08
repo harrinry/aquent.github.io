@@ -1,1 +1,1 @@
-Used on the blog and browse jobs page.
+Used on blog and browse jobs page.

@@ -135,6 +135,24 @@
                     "width": "half"
                 }
             ]
+        },
+        {
+            "name": "layout",
+            "title": "Layout",
+            "components": [
+                {
+                    "group": "layout",
+                    "name": "border-box",
+                    "title": "Border-box",
+                    "width": "half"
+                },
+                {
+                    "group": "layout",
+                    "name": "sidebar",
+                    "title": "Sidebar",
+                    "width": "half"
+                }
+            ]
         }
     ],
     "version": "1.9.5"

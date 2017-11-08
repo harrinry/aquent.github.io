@@ -1,1 +1,0 @@
-Active and inactive states

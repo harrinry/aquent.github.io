@@ -25,7 +25,7 @@
         "max_width": null,
         "titles": {
             "library_title": null,
-            "pages_title": "Getting Started",
+            "pages_title": "Overview",
             "components_title": "Components"
         }
     },
@@ -202,20 +202,57 @@
             ]
         },
         {
-            "name": "notification",
-            "title": "Notification",
+            "name": "notifications",
+            "title": "Notifications",
             "components": [
                 {
-                    "group": "notification",
+                    "group": "notifications",
                     "name": "banner",
                     "title": "Banner",
                     "width": "half"
                 },
                 {
-                    "group": "notification",
+                    "group": "notifications",
                     "name": "badge",
                     "title": "Badge",
                     "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "navigation",
+            "title": "Navigation",
+            "components": [
+                {
+                    "name": "titled",
+                    "title": "Titled",
+                    "group": "navigation"
+                },
+                {
+                    "name": "tabs",
+                    "title": "Tabs",
+                    "group": "navigation"
+                }
+            ]
+        },
+        {
+            "name": "layout",
+            "title": "Layout",
+            "components": [
+                {
+                    "group": "layout",
+                    "name": "grid",
+                    "title": "Grid"
+                },
+                {
+                    "group": "layout",
+                    "name": "panels",
+                    "title": "Panels"
+                },
+                {
+                    "group": "layout",
+                    "name": "cards",
+                    "title": "Cards"
                 }
             ]
         }

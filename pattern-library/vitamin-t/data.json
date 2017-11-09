@@ -160,8 +160,18 @@
             "components": [
                 {
                     "group": "icon",
-                    "name": "icons",
-                    "title": "Icons"
+                    "name": "nav",
+                    "title": "Nav"
+                },
+                {
+                    "group": "icon",
+                    "name": "pages",
+                    "title": "Pages"
+                },
+                {
+                    "group": "icon",
+                    "name": "social-media",
+                    "title": "Social Media"
                 }
             ]
         }

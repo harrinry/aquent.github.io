@@ -34,7 +34,7 @@
             "https://vitamintalent.com/css/main.css"
         ],
         "js": [
-            "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js"
+            "https://vitamintalent.com/js/app.js"
         ]
     },
     "font_libraries": {
@@ -151,6 +151,27 @@
                     "name": "sidebar",
                     "title": "Sidebar",
                     "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "icon",
+            "title": "Icon",
+            "components": [
+                {
+                    "group": "icon",
+                    "name": "nav",
+                    "title": "Nav"
+                },
+                {
+                    "group": "icon",
+                    "name": "pages",
+                    "title": "Pages"
+                },
+                {
+                    "group": "icon",
+                    "name": "social-media",
+                    "title": "Social Media"
                 }
             ]
         }

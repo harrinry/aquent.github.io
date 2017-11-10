@@ -156,6 +156,11 @@
                     "group": "layout",
                     "name": "4x4",
                     "title": "4x4 Panel"
+                },
+                {
+                    "group": "layout",
+                    "name": "tab-wrapper",
+                    "title": "Tab-wrapper"
                 }
             ]
         }

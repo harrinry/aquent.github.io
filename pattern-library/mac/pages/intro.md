@@ -5,7 +5,7 @@ Welcome to MyAquent Client's (MAC) pattern library. This is resource contains gu
 
 #### Our Team
 
-Our designers' primary tool for user interface design is Sketch. Download our [Sketch Library](https://github.com/aquent/aquent.github.io/blob/master/pattern-library/mac/MAC%202.0%20(DS).library.zip) to access MAC's shared library of component symbols symbols. Our developers' front-end framework of choice is Angular.
+Our designers' primary tool for user interface design is Sketch. Aquent Designers can download our [Sketch Library](https://www.dropbox.com/s/zt23fu626h5x0f1/MAC%202.0%20%28DS%29.library.zip?dl=0) to access MAC's shared library of component symbols symbols. Our developers' front-end framework of choice is Angular.
 
 <svg width="115px" height="48px" viewBox="0 0 115 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->

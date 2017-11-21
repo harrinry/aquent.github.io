@@ -1,0 +1,261 @@
+{
+    "project_logo": "http://svgshare.com/i/3nu.svg",
+    "project_favicon": "favicon.png",
+    "project_name": null,
+    "project_url": null,
+    "copyright_start_year": 2017,
+    "client_name": null,
+    "client_url": null,
+    "creators": [
+        {
+            "name": "Patrick Branigan",
+            "url": "http://twitter.com/pbranigan"
+        }
+    ],
+    "theme": {
+        "border_color": "#F2F2F2",
+        "highlight_color": "#F9FAFC",
+        "brand_color": "#F8971D",
+        "background_color": "#FFFFFF",
+        "code_highlight_theme": "github",
+        "override_code_highlight_bg": "#F9FAFC",
+        "sample_dark_background": "#333333",
+        "show_project_name": true,
+        "show_version": true,
+        "max_width": null,
+        "titles": {
+            "library_title": null,
+            "pages_title": "Overview",
+            "components_title": "Components"
+        }
+    },
+    "assets": {
+        "css": [
+            "../mac/cobranded.css"
+        ],
+        "js": []
+    },
+    "font_libraries": {
+        "typekit_code": null,
+        "typography_web_fonts": null,
+        "google_web_fonts": "https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900, https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i"
+    },
+    "content": {
+        "show_first_page_on_load": true,
+        "title": "Getting Started",
+        "pages": [
+            {
+                "name": "introduction",
+                "title": "Introduction",
+                "file": "./pages/intro.md"
+            }
+        ]
+    },
+    "groups": [
+        {
+            "name": "colors",
+            "title": "Colors",
+            "components": [
+                {
+                    "group": "colors",
+                    "name": "brand",
+                    "title": "Brand",
+                    "type": "colors",
+                    "colors": [
+                        "#F8971D",
+                        "#000000",
+                        "#FFFFFF"
+                    ]
+                },
+                {
+                    "group": "colors",
+                    "name": "ui",
+                    "title": "UI",
+                    "type": "colors",
+                    "colors": [
+                        "#5BBDD8",
+                        "#5D2D62",
+                        "#FF5A5F",
+                        "#F06635",
+                        "#F8C014",
+                        "#4A4A4A",
+                        "#CCCCCC",
+                        "#F6F6F6"
+                    ]
+                },
+                {
+                    "group": "colors",
+                    "name": "notification",
+                    "title": "Notification",
+                    "type": "colors",
+                    "colors": [
+                        "#39B54a",
+                        "#EF4123"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "typography",
+            "title": "Typography",
+            "components": [
+                {
+                    "name": "montserrat",
+                    "title": "Montserrat",
+                    "width": "half",
+                    "group": "typography"
+                },
+                {
+                    "group": "typography",
+                    "name": "opensans",
+                    "title": "Open Sans",
+                    "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "iconography",
+            "title": "Iconography",
+            "components": [
+                {
+                    "name": "ui",
+                    "title": "UI",
+                    "group": "iconography"
+                },
+                {
+                    "name": "social",
+                    "title": "Social",
+                    "group": "iconography"
+                },
+                {
+                    "name": "misc",
+                    "title": "Misc",
+                    "group": "iconography"
+                }
+            ]
+        },
+        {
+            "name": "buttons",
+            "title": "Buttons",
+            "components": [
+                {
+                    "name": "primary",
+                    "title": "Primary",
+                    "width": "half",
+                    "options": {},
+                    "group": "buttons"
+                },
+                {
+                    "group": "buttons",
+                    "name": "secondary",
+                    "title": "Secondary",
+                    "width": "half"
+                },
+                {
+                    "group": "buttons",
+                    "name": "disabled",
+                    "title": "Disabled",
+                    "width": "half"
+                },
+                {
+                    "name": "other",
+                    "title": "Other",
+                    "width": "half",
+                    "group": "buttons"
+                }
+            ]
+        },
+        {
+            "name": "controls",
+            "title": "Controls",
+            "components": [
+                {
+                    "group": "controls",
+                    "name": "input",
+                    "title": "Input",
+                    "width": "half"
+                },
+                {
+                    "group": "controls",
+                    "name": "checkbox",
+                    "title": "Checkbox",
+                    "width": "half"
+                },
+                {
+                    "name": "radio",
+                    "title": "Radio",
+                    "width": "half",
+                    "group": "controls"
+                },
+                {
+                    "name": "incrementer",
+                    "title": "Incrementer",
+                    "width": "half",
+                    "group": "controls"
+                },
+                {
+                    "group": "controls",
+                    "name": "toggle",
+                    "title": "Toggle",
+                    "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "notifications",
+            "title": "Notifications",
+            "components": [
+                {
+                    "group": "notifications",
+                    "name": "banner",
+                    "title": "Banner",
+                    "width": "half"
+                },
+                {
+                    "group": "notifications",
+                    "name": "badge",
+                    "title": "Badge",
+                    "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "navigation",
+            "title": "Navigation",
+            "components": [
+                {
+                    "name": "titled",
+                    "title": "Titled",
+                    "group": "navigation"
+                },
+                {
+                    "name": "tabs",
+                    "title": "Tabs",
+                    "group": "navigation"
+                }
+            ]
+        },
+        {
+            "name": "layout",
+            "title": "Layout",
+            "components": [
+                {
+                    "group": "layout",
+                    "name": "grid",
+                    "title": "Grid"
+                },
+                {
+                    "group": "layout",
+                    "name": "panels",
+                    "title": "Panels"
+                },
+                {
+                    "group": "layout",
+                    "name": "cards",
+                    "title": "Cards"
+                }
+            ]
+        }
+    ],
+    "version": "1.9.5"
+}

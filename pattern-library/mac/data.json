@@ -84,14 +84,14 @@
                     ]
                 },
                 {
-                    "group": "colors",
-                    "name": "notification",
-                    "title": "Notification",
+                    "name": "alert",
+                    "title": "Alert",
                     "type": "colors",
                     "colors": [
                         "#39B54a",
                         "#EF4123"
-                    ]
+                    ],
+                    "group": "colors"
                 }
             ]
         },

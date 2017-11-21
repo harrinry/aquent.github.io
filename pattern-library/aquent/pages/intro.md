@@ -4,4 +4,4 @@
 
 In addition to the patterns referenced, Aquent has site-specific patterns.
 
-<p><a class="button" href="/">Pattern Library Index</a></p>
+<p><a class="button" href="/pattern-library">Pattern Library Index</a></p>

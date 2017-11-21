@@ -84,14 +84,14 @@
                     ]
                 },
                 {
-                    "group": "colors",
-                    "name": "notification",
-                    "title": "Notification",
+                    "name": "alert",
+                    "title": "Alert",
                     "type": "colors",
                     "colors": [
                         "#39B54a",
                         "#EF4123"
-                    ]
+                    ],
+                    "group": "colors"
                 }
             ]
         },
@@ -120,16 +120,19 @@
                 {
                     "name": "ui",
                     "title": "UI",
+                    "width": "half",
                     "group": "iconography"
                 },
                 {
                     "name": "social",
                     "title": "Social",
+                    "width": "half",
                     "group": "iconography"
                 },
                 {
                     "name": "misc",
                     "title": "Misc",
+                    "width": "half",
                     "group": "iconography"
                 }
             ]
@@ -216,43 +219,6 @@
                     "name": "badge",
                     "title": "Badge",
                     "width": "half"
-                }
-            ]
-        },
-        {
-            "name": "navigation",
-            "title": "Navigation",
-            "components": [
-                {
-                    "name": "titled",
-                    "title": "Titled",
-                    "group": "navigation"
-                },
-                {
-                    "name": "tabs",
-                    "title": "Tabs",
-                    "group": "navigation"
-                }
-            ]
-        },
-        {
-            "name": "layout",
-            "title": "Layout",
-            "components": [
-                {
-                    "group": "layout",
-                    "name": "grid",
-                    "title": "Grid"
-                },
-                {
-                    "group": "layout",
-                    "name": "panels",
-                    "title": "Panels"
-                },
-                {
-                    "group": "layout",
-                    "name": "cards",
-                    "title": "Cards"
                 }
             ]
         }

@@ -168,7 +168,7 @@
 .ndpl-c-brand-cai a[href]:active,
 .ndpl-c-brand-cai a:active,
 .ndpl-c-brand-cai a[href]:visited,
-.ndpl-c-brand-cai a:visited        { color: #FEA1AC; }            /* Brand child anchors */
+.ndpl-c-brand-cai a:visited        { color: #000000 !important; }            /* Brand child anchors */
 .ndpl-c-brand-cai a[href]:hover,
 .ndpl-c-brand-cai a:hover          { color: #303637 !important; }            /* Brand child anchors on hover */
 

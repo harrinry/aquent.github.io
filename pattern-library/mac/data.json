@@ -42,7 +42,7 @@
     },
     "content": {
         "show_first_page_on_load": true,
-        "title": "Getting Started",
+        "title": "Overview",
         "pages": [
             {
                 "name": "introduction",

@@ -34,7 +34,7 @@
             "https://aquent.com/css/main.css"
         ],
         "js": [
-            "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js"
+            "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"
         ]
     },
     "font_libraries": {
@@ -161,6 +161,11 @@
                     "group": "layout",
                     "name": "tab-wrapper",
                     "title": "Tab-wrapper"
+                },
+                {
+                    "group": "layout",
+                    "name": "panel-cards",
+                    "title": "Panel Cards"
                 }
             ]
         }

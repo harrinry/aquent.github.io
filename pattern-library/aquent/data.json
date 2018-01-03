@@ -168,6 +168,28 @@
                     "title": "Panel Cards"
                 }
             ]
+        },
+        {
+            "name": "miscellaneous",
+            "title": "Micellaneous",
+            "components": [
+                {
+                    "group": "miscellaneous",
+                    "name": "color-contrast-grid",
+                    "title": "color contrast grid",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "miscellaneous",
+                    "name": "monochromatic",
+                    "title": "monochromatic contrast grid",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                }
+            ]
         }
     ],
     "version": "1.9.5"

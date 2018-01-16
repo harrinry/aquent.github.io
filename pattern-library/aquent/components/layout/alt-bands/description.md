@@ -1,0 +1,1 @@
+These alternating color bands are intended to be used as wrappers for `row column` contained elements. As such, the example for the 50/50 Blocks will better illustrate an actual application of this layout type.

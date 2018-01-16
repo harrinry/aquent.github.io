@@ -1,7 +1,7 @@
 {
     "project_logo": "https://aquent.com/svg/aquent-logo-orange.svg",
-    "project_favicon": "//assets.aquent.com/img/new-aq-favicon.ico",
-    "project_name": "Aquent",
+    "project_favicon": "https://assets.aquent.com/img/new-aq-favicon.ico",
+    "project_name": null,
     "project_url": "https://aquent.com/",
     "copyright_start_year": null,
     "client_name": "Aquent",
@@ -24,7 +24,7 @@
         "show_version": true,
         "max_width": null,
         "titles": {
-            "library_title": "Pattern Library",
+            "library_title": "Pattern Library Index",
             "pages_title": "Overview",
             "components_title": "Components"
         }
@@ -34,7 +34,7 @@
             "https://aquent.com/css/main.css"
         ],
         "js": [
-            "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"
+            null
         ]
     },
     "font_libraries": {
@@ -93,8 +93,8 @@
                 },
                 {
                     "group": "branding",
-                    "name": "color-render",
-                    "title": "Color-render"
+                    "name": "color-utilities",
+                    "title": "Color Classes/SASS Variable Names"
                 }
             ]
         },
@@ -171,7 +171,7 @@
         },
         {
             "name": "miscellaneous",
-            "title": "Micellaneous",
+            "title": "Miscellaneous",
             "components": [
                 {
                     "group": "miscellaneous",

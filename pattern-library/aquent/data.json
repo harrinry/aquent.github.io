@@ -104,8 +104,18 @@
             "components": [
                 {
                     "group": "typography",
-                    "name": "default",
-                    "title": "Typography"
+                    "name": "base-styles",
+                    "title": "Base Styles"
+                },
+                {
+                    "group": "typography",
+                    "name": "headings",
+                    "title": "Headings"
+                },
+                {
+                    "group": "typography",
+                    "name": "fixed-sizes",
+                    "title": "Absolute Font Sizes"
                 },
                 {
                     "group": "typography",

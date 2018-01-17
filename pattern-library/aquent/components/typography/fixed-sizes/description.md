@@ -1,0 +1,1 @@
+These fixed size utility classes are based on the [absolute sizes defined by the browser](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size). These class names can theoretically be applied to any text element.

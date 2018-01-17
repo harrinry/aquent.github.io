@@ -149,8 +149,13 @@
             "components": [
                 {
                     "group": "layout",
+                    "name": "alt-bands",
+                    "title": "Alternating Color Full Width Panels"
+                },
+                {
+                    "group": "layout",
                     "name": "fifty-fifty",
-                    "title": "Fifty fifty block"
+                    "title": "50/50 Blocks (Side-By-Side Panels)"
                 },
                 {
                     "group": "layout",
@@ -160,7 +165,7 @@
                 {
                     "group": "layout",
                     "name": "tab-wrapper",
-                    "title": "Tab-wrapper"
+                    "title": "Tab Wrapper"
                 },
                 {
                     "group": "layout",

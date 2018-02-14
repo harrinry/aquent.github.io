@@ -91,8 +91,8 @@
                 },
                 {
                     "group": "branding",
-                    "name": "color-render",
-                    "title": "Color-render"
+                    "name": "color-utilities",
+                    "title": "Color-utilities"
                 }
             ]
         },

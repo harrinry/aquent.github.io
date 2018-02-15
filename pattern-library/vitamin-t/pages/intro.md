@@ -1,5 +1,7 @@
-# Introduction
+## Introduction
 
-<h1>Vitamin T Patterns</h1>
+Howdy, folks. You've found this resource, which means you're likely interested about Vitamin T's style guide and pattern library. This is a living document, which means it is subject to change and revision while we strive to improve the design and user experience of the Vitamin T website.
 
-In addition to the patterns referenced, Vitamin T has site-specific patterns.
+Things to note:
+1. We use the Foundation Sites framework for our SASS/CSS and some of our interactivity.
+2. Foundation relies on jQuery, and so do we.

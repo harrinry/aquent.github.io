@@ -142,6 +142,18 @@
             "components": [
                 {
                     "group": "layout",
+                    "name": "margin-utilities",
+                    "title": "margin-utilities",
+                    "width": "half"
+                },
+                {
+                    "group": "layout",
+                    "name": "padding-utilities",
+                    "title": "Padding-utilities",
+                    "width": "half"
+                },
+                {
+                    "group": "layout",
                     "name": "border-box",
                     "title": "Border-box",
                     "width": "half"

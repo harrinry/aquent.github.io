@@ -163,6 +163,18 @@
                     "title": "Alternating Color Full Width Panels"
                 },
                 {
+                    "name": "margin-utilities",
+                    "title": "Margin-utilities",
+                    "width": "half",
+                    "group": "layout"
+                },
+                {
+                    "name": "padding-utilities",
+                    "title": "Padding-utilities",
+                    "width": "half",
+                    "group": "layout"
+                },
+                {
                     "group": "layout",
                     "name": "fifty-fifty",
                     "title": "50/50 Blocks (Side-By-Side Panels)"

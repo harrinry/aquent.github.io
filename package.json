@@ -1,5 +1,17 @@
 {
   "dependencies": {
-    "handlebars": "^4.5.3"
+    "brace-expansion": "^1.1.11",
+    "bytes": "^3.1.0",
+    "content-disposition": "^0.5.3",
+    "deep-extend": "^0.6.0",
+    "handlebars": "^4.5.3",
+    "mime-db": "^1.43.0",
+    "mime-types": "^2.1.26",
+    "minimatch": "^3.0.4",
+    "path-to-regexp": "^6.1.0",
+    "punycode": "^2.1.1",
+    "range-parser": "^1.2.1",
+    "safe-buffer": "^5.2.0",
+    "serve-handler": "^6.1.2"
   }
 }
